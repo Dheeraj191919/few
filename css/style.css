@@ -1,0 +1,56 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+  background-image: url(../images/girl.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.box-1{
+  text-align: center;
+  width: 1200px;
+  margin: 0px auto;
+  background-color: transparent;
+  padding: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+.box-1 h1{
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+input {
+	background-color: transparent;
+	border: none;
+	padding: 15px 15px;
+	margin: 8px 0;
+	width: 25%;
+  outline: none;
+  color: white;
+}
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 10px 0;
+}
+.email{
+  border-bottom: 1px solid #252525;
+}
+.password{
+  border-bottom: 1px solid #252525;
+}
